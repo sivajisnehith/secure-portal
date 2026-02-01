@@ -1,0 +1,13 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>reset link</title>
+</head>
+<body>
+    <h2>This is the link to reset you rpassword</h2>
+    {% if link %}
+        <p>Reset link:</p>
+        <a href="{{ link }}">{{ link }}</a>
+    {% endif %}
+</body>
+</html>
